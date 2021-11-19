@@ -1,5 +1,5 @@
 Package: Ex1
-Title: What the Package Does (One Line, Title Case)
+Title: Draw barplots for variables
 Version: 0.1.0
 Authors@R: 
     person(given = "First",
@@ -8,7 +8,7 @@ Authors@R:
            email = "first.last@example.com",
            comment = c(ORCID = "YOUR-ORCID-ID"))
 Description: This function draws density plots for the parameters listed in 
-cancer_sample data set and use different diagnosis types as facets to separate them
+  cancer_sample data set and use different diagnosis types as facets to separate them
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
