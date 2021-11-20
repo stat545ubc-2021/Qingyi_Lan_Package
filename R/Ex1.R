@@ -1,4 +1,4 @@
-#' Draw barplots for variables
+#' Draw barplots for variables in cancer_sample dataset
 #' @param x The first variable extracted to represent facets in the graph
 #' @param y The second variable, which is one of the parameters used to draw the density
 #' graph

@@ -2,7 +2,7 @@
 % Please edit documentation in R/Ex1.R
 \name{Ex1}
 \alias{Ex1}
-\title{Draw barplots for variables}
+\title{Draw barplots for variables in cancer_sample dataset}
 \usage{
 Ex1(data, x, y, na.rm = FALSE)
 }
@@ -18,7 +18,7 @@ variable in the data set
 throws error if 'x' and 'y' are not proper type
 }
 \description{
-Draw barplots for variables
+Draw barplots for variables in cancer_sample dataset
 }
 \examples{
 library(datateachr)
