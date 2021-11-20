@@ -1,5 +1,5 @@
 Package: Ex1
-Title: Draw barplots for variables
+Title: Draw barplots for variables in cancer_sample datasets
 Version: 0.1.0
 Authors@R: 
     person(given = "First",
