@@ -33,26 +33,15 @@ This is a basic example which shows you how to solve a common problem:
 
 ``` r
 library(Ex1)
-library(datateachr)
-library(ggplot2)
-library(dplyr)
-#> 
-#> Attaching package: 'dplyr'
-#> The following objects are masked from 'package:stats':
-#> 
-#>     filter, lag
-#> The following objects are masked from 'package:base':
-#> 
-#>     intersect, setdiff, setequal, union
 ## basic example code
-Ex1(cancer_sample, diagnosis, radius_mean)
+Ex1(datateachr::cancer_sample, diagnosis, radius_mean)
 ```
 
 <img src="man/figures/README-example-1.png" width="100%" />
 
 ``` r
 #For this example, it works because diagnosis is a character and radius_mean is a numeric variable. The density graph displaying distribution of radius mean in different diagnosis type is successfully generated
-Ex1(cancer_sample, diagnosis, perimeter_mean)
+Ex1(datateachr::cancer_sample, diagnosis, perimeter_mean)
 ```
 
 <img src="man/figures/README-example-2.png" width="100%" />
@@ -67,13 +56,13 @@ numeric value
 
 ``` r
 #Example 1
-Ex1(cancer_sample, perimeter_mean, radius_mean)
-#> Error in Ex1(cancer_sample, perimeter_mean, radius_mean): you have entered non-charater value for x. Please check the class of xnumeric
+Ex1(datateachr::cancer_sample, perimeter_mean, radius_mean)
+#> Error in Ex1(datateachr::cancer_sample, perimeter_mean, radius_mean): you have entered non-charater value for x. Please check the class of xnumeric
 #For this example, it does not works because the x--perimeter_mean in this function is not character, but belongs to the class of numeric. 
 
 #Example2
-Ex1(cancer_sample, perimeter_mean, diagnosis)
-#> Error in Ex1(cancer_sample, perimeter_mean, diagnosis): you have entered non-charater value for x. Please check the class of xnumeric
+Ex1(datateachr::cancer_sample, perimeter_mean, diagnosis)
+#> Error in Ex1(datateachr::cancer_sample, perimeter_mean, diagnosis): you have entered non-charater value for x. Please check the class of xnumeric
 #This does not work because x---perimeter_mean is not character and y--diagnosis is not numeric. 
 ```
 

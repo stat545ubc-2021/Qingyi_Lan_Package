@@ -1,0 +1,24 @@
+{
+    "id": "FF918F47",
+    "path": "~/Desktop/Qingyi_Lan_Package/tests/testthat.R",
+    "project_path": "tests/testthat.R",
+    "type": "r_source",
+    "hash": "389831962",
+    "contents": "",
+    "dirty": false,
+    "created": 1637133461626.0,
+    "source_on_save": false,
+    "relative_order": 3,
+    "properties": {
+        "cursorPosition": "3,0",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1637398831,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1637398831760,
+    "read_only": false,
+    "read_only_alternatives": []
+}
